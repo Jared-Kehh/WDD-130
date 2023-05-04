@@ -7,16 +7,10 @@ img {
 
 nav{
     text-align: center;
+    background-color: #258bd3;
+    font-size: 40px;
 }
-
-:root {
- 
-  --primary-color: #258bd3   ;
-  --secondary-color: #7fd2e0 ;
-  --accent1-color: #51dd5d;
-  --accent2-color: white;
-
-  --heading-font: "Oswald", sans-serif, "Playfair Display";
-  --paragraph-font: Quicksand, Barlow, sans-serif;
+nav a{
+  color: white;
+  font-size: 25px;
 }
-
