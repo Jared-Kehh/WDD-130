@@ -7,9 +7,67 @@ img {
 nav{
     text-align: center;
     background-color: #258bd3;
-    font-size: 40px;
+    font-size: 30px;
+    padding:10px;
 }
 nav a{
   color: white;
   font-size: 25px;
+  padding: 50px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #258bd3;
+  background-color: white;
+  padding: 25px;
+}
+
+p{
+  text-align: center;
+}
+
+.paddle-card{
+  text-align: center;
+}
+
+.river-card{
+  text-align: center;
+}
+
+.lake-card{
+  text-align: center;
+}
+.water-rafting-success-card{
+  text-align: center;
+}
+.social-media{
+  text-align: center;
+}
+
+.footer-links{
+  text-align: center;
+  background-color: #51dd5d;
+  font-size: 30px;
+  padding:10px;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color:white;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.products{
+  text-align: center;
+}
+
+header{
+  text-align: center;
+}
+
+.background-color{
+  height:725px;
+  background-color: #7fd2e0;
 }
