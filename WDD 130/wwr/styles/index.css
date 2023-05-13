@@ -1,7 +1,7 @@
 img {
     display: right;
     margin: auto;
-    max-width: 3000px;
+    max-width: 1600px;
   }
 
 nav{
@@ -40,6 +40,8 @@ p{
 }
 .water-rafting-success-card{
   text-align: center;
+  background-color: #258bd3;
+  padding: 25px
 }
 .social-media{
   text-align: center;
@@ -64,10 +66,27 @@ p{
 }
 
 header{
-  text-align: center;
+  text-align: left;
 }
 
 .background-color{
   height:725px;
   background-color: #7fd2e0;
+}
+
+footer{
+  background-color: #258bd3;
+}
+
+.logo{
+  background-color: #258bd3;
+  width:80px;
+}
+.banner img{
+  max-width: 1600px;
+}
+
+.water-rafting-success-card a{
+  text-decoration: none;
+  color: white;
 }
