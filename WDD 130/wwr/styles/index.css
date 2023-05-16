@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Barlow&family=Playfair Display:ital,wght@0,400;0,700;1,400&display=swap');
 img {
     display: right;
     margin: auto;
@@ -29,6 +31,7 @@ p{
 
 .paddle-card{
   text-align: center;
+  
 }
 
 .river-card{
@@ -41,15 +44,16 @@ p{
 .water-rafting-success-card{
   text-align: center;
   background-color: #258bd3;
-  padding: 25px
+  padding: 25px;
+  
 }
 .social-media{
   text-align: center;
 }
 
 .footer-links{
-  text-align: center;
-  background-color: #51dd5d;
+  text-align: left;
+  background-color: #258bd3;
   font-size: 30px;
   padding:10px;
 }
@@ -67,6 +71,7 @@ p{
 
 header{
   text-align: left;
+  background-color: #258bd3;
 }
 
 .background-color{
@@ -76,21 +81,51 @@ header{
 
 footer{
   background-color: #258bd3;
+  padding: 25px;
 }
 
 .logo{
   background-color: #258bd3;
   width:80px;
 }
-.banner img{
+.banner{
   max-width: 1600px;
 }
 
 .water-rafting-success-card a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .products a{
   text-decoration: none;
+  color: black;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif, "Playfair Display";
+}
+
+p{
+  font-family: Quicksand, Barlow, sans-serif;
+}
+
+.waterpaddle-img{
+  border: 4px solid #258bd3;
+}
+
+.river-img{
+  border: 4px solid #258bd3;
+}
+
+.lake-img{
+  border: 4px solid #258bd3;
+}
+
+.footer-links a:hover{
+  text-decoration: none;
+  color:#258bd3;
+  background-color: white;
+  font-size: 25px;
+  padding: 20px;
 }
