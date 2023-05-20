@@ -3,7 +3,7 @@
 img {
     display: right;
     margin: auto;
-    max-width: 1600px;
+    max-width: 5000px;
   }
 
 nav{
@@ -87,9 +87,15 @@ footer{
 .logo{
   background-color: #258bd3;
   width:80px;
+
 }
 .banner{
-  max-width: 1600px;
+  max-width: 3000px;
+  background-color: #258bd3;
+}
+.imgbanner{
+  text-align: center;
+  background-color: #258bd3;
 }
 
 .water-rafting-success-card a{
