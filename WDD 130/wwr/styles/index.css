@@ -15,7 +15,7 @@ nav{
 nav a{
   color: white;
   font-size: 25px;
-  padding: 50px;
+  padding: 35px;
   text-decoration: none;
 }
 
@@ -31,24 +31,28 @@ p{
 
 .paddle-card{
   text-align: center;
+  margin: 200px;
   
 }
 
 .river-card{
   text-align: center;
+  margin: 200px;
 }
 
 .lake-card{
   text-align: center;
+  margin: 200px;
 }
 .water-rafting-success-card{
   text-align: center;
   background-color: #258bd3;
   padding: 25px;
-  
+  margin: 200px;
 }
 .social-media{
   text-align: center;
+  padding-top: 15px;
 }
 
 .footer-links{
@@ -81,12 +85,14 @@ header{
 
 footer{
   background-color: #258bd3;
-  padding: 25px;
+  padding: 25px 50px;
+  margin: 200px;
 }
 
 .logo{
   background-color: #258bd3;
   width:80px;
+  padding-top: 10px;
 
 }
 .banner{
@@ -110,10 +116,13 @@ footer{
 
 h1, h2 {
   font-family: "Oswald", sans-serif, "Playfair Display";
+  font-size: 2em;
 }
 
 p{
   font-family: Quicksand, Barlow, sans-serif;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .waterpaddle-img{
