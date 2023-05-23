@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: auto auto auto;
+}
+.cherries{
+    color: red;
+    font-size: 2em;
+}
+h1{
+    font-size: 5em;
+}
+.cherry{
+    background-color: white;
+    margin: 0;
+}
