@@ -43,7 +43,7 @@ p{
 .river-card{
   text-align: center;
   margin: 200px;
-  grid-column: 6/8;
+  grid-column: 5/7;
   grid-row: 2/3;
 }
 
@@ -130,13 +130,14 @@ footer{
 
 }
 .banner{
-  max-width: 3000px;
+  max-width: 2000px;
   background-color: #258bd3;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .imgbanner{
   text-align: center;
   background-color: #258bd3;
+  max-width: 3000px;
 }
 
 .water-rafting-success-card a{
@@ -205,11 +206,11 @@ main{
 
 
 @media screen and (max-width: 900px) {
-  .gallery, .header {
+  .gallery, .imgbanner {
       display: block;
       height: auto;
   }
-  nav, footer {
+  nav, footer, .imgbanner {
       flex-direction: column;
   }
   nav a {
