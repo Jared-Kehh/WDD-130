@@ -233,6 +233,30 @@ main{
   font-size: 25px;
 }
 
+.endofmain{
+  grid-row: 6/7;
+  grid-column: 1/2;
+  font-size: 35px;
+}
+.scorpionpic{
+  grid-row: 7/8;
+  grid-column: 1/2;
+  width:80%;
+}
+.sheeppic{
+  grid-row:7/8;
+  grid-column: 3/4;
+}
+.peoplerafting{
+  grid-row: 7/8;
+  grid-column: 6/7;
+  width: 350%;
+}
+.endingpara{
+  grid-row: 9/10;
+  grid-column: 1/11;
+  font-size: 25px;
+}
 
 @media screen and (max-width: 900px) {
   .gallery, .imgbanner {
